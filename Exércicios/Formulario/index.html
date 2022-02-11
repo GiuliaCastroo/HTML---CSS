@@ -22,15 +22,16 @@
         
         <label for="nome:"><strong>Nome</strong></label>
         <input type="text" name="nome" id="nome" required>
-    
-   
-        <label for="nome"><strong>Nome</strong></label>
-        <input type="text" name="nome" id="nome" required>
+        <input type="text" id="nome" onkeyup="validarNome()">
 
+        <label for="sobrenome"><strong>Sobrenome</strong></label>
+        <input type="text" name="sobrenome" id="sobrenome" required>
+            <!-- não adicionei o sobrenome pois não vi a necessidade dele ser obrigatorio -->
+      
     
         <label for="email"><strong>Email</strong></label>
         <input type="email" name="email" id="email" required>
-    
+        <input type="text" id="email" onkeyup="validarEmail()">
     
         <label><strong>De qual lado da aplicação você desenvolve?</strong></label>
         <label>
@@ -45,17 +46,11 @@
     </div>
 </div>
      <!-- tentei criar um botão para enviar o formulário -->  
-    <button class="botao" type="submit" onsubmit="">Concluído</button>            
-
+    <button class="botao" type="submit" onsubmit=""    onclick="enviar()"    >Concluído</button>            
+   
 </form>
 
-
-
-
-
-
-
-
+<script src="script.js"></script>
 
 
 
