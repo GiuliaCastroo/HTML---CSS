@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.titulo {
+    font-family: sans-serif;
+    color: #380B61;
+    margin-left: 7%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+} 
+.subtitulo{
+    font-family: sans-serif;
+    color: #380B61;
+    margin-left: 7%;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+
+    background-color: #de9bf3;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
+
+.teste{
+    position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+}
+
+
+.container label {
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+    float:  center;
+    margin-right: 1em;
+    margin-top: 15px;
+}
+.container input[type="text"], .container input[type="email"], .container select, .container textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.container select option {
+    padding-right: 1em;
+}
+
+.container input:focus, .container select:focus, .container textarea:focus {
+    background: #2c014e;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+.menina{
+width: 300px;
+margin-bottom: 35px;
+align-items: auto;
+}
+
+.teste2{
+    position: absolute;
+    top: calc(30% - 100px);
+    left: calc(50% - 100px);
+    margin-bottom: 15px;
+    
+
+}
