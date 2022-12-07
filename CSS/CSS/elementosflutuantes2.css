@@ -1,0 +1,34 @@
+
+body{
+    background-color: #f4f4f4;
+}
+
+
+
+#principal{
+    width: 920px;
+   
+
+}
+
+
+.noticia{
+    background: #e5e5e5;
+    padding: 5PX;
+    width: 280PX;
+    margin: 7px;
+    float: left;
+}
+
+
+.clear{
+    clear: both;
+}
+
+.imagem{
+    background-color: white;
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 15px;
+}
