@@ -1,0 +1,42 @@
+
+
+body{
+    background-color: #007fc7;
+}
+
+#container{
+    background-color: #FFF;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+
+}
+
+
+h1{
+    
+}
+
+
+p{
+    width: 300px;
+
+}
+
+
+.absoluta{
+    position: absolute;
+    border: 1px solid red;
+    top: 80px;
+    right: 80px;
+}
+
+
+.relativo {
+    border: 1px solid red;
+    position: relative;      /*Propiedades de deslocamento: top, right, bottom e left*/
+       /*top: -20px;
+    left: 0px;*/
+    bottom: 20px;
+}

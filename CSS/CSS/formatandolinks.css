@@ -1,0 +1,28 @@
+
+a {
+    padding: 5px 10px;
+    text-decoration: none;
+    
+
+}  
+
+/* Links não Visitados*/
+a:link{
+    color: #b9c941;
+}
+
+ /* Links Visitados*/
+ a:visited {
+    color: #c0c0c0;
+ }
+
+ /* Links Hover*/
+ a:hover{
+    color: #6d790f;
+ }
+
+
+ /* Links ativo*/
+ a:active{
+    color: #e4f371;
+ }
