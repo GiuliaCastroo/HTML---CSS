@@ -1,0 +1,32 @@
+/*Barra de navegação horizontal*/
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720 px;
+    background: #159cb0 url(Recursos/fundo-horizontal.png) repeat-x ; /*Repita a imagem apenas na horizontal ou usar o no-repeat */
+    float: left;
+}
+
+ul li {
+   float: left;
+}
+
+ul a {
+     display: block;   
+     padding: 0 2em;
+     line-height: 2em;/*Usar essa definição para não ter que usar um padding superior*/
+    text-decoration: none;
+    color: #fff;
+    background: url(Recursos/divisor.png) repeat-y;
+}
+
+ul .primeiro a{
+    background: none;
+}
+
+ul a:hover{
+    color: #085662;
+    background: #44cade;
+}
